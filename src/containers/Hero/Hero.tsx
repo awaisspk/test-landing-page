@@ -46,7 +46,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="relative mx-auto w-[80%]">
+      <div className="relative mx-auto w-[90%]">
         <img
           src="/assets/images/mobile.png"
           className="relative z-10 mx-auto h-max object-contain"

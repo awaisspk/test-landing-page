@@ -57,15 +57,15 @@ export const Feature = () => {
                 </div>
               </li>
             ))}
+          <button
+            className="order-4 mr-auto flex h-14  w-40 items-center justify-between rounded-full bg-[#42A4FF] px-6 font-semibold text-white hover:bg-[#42A4FF96] active:bg-[#42A4FF] lg:hidden"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? 'Show Less' : 'See More'}
+            <TbChevronDown className="h-6 w-6" />
+          </button>
         </ul>
-        <button
-          className="order-4 flex h-14  w-40 items-center justify-between rounded-full bg-[#42A4FF] px-6 font-semibold text-white hover:bg-[#42A4FF96] active:bg-[#42A4FF] lg:hidden"
-          onClick={() => setShowMore(!showMore)}
-        >
-          {showMore ? 'Show Less' : 'See More'}
-          <TbChevronDown className="h-6 w-6" />
-        </button>
-        <div className="relative order-4 mx-auto w-[80%] lg:order-2 lg:-translate-y-10">
+        <div className="relative order-4 mx-auto w-[90%] lg:order-2 lg:-translate-y-10">
           <img
             src="/assets/images/mobile.png"
             className="relative z-10 mx-auto h-max object-contain "

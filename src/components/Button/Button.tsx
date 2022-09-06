@@ -7,7 +7,7 @@ export const Button = (props: Props) => {
   return (
     <button
       {...rest}
-      className="h-14 rounded-full bg-[#1A2024] px-8 text-white duration-150 hover:scale-95 active:scale-100"
+      className="h-12 rounded-full bg-[#1A2024] px-6 text-white duration-150 hover:scale-95 active:scale-100 md:h-14 md:px-8"
     >
       {children}
     </button>

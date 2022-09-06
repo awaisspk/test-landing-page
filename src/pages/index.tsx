@@ -8,7 +8,7 @@ import { Main } from '@/layouts';
 const Index = () => {
   return (
     <Main meta={<Meta title="Home Page" description="This is the home page" />}>
-      <div className="h-screen max-h-[1200px] bg-gradient-to-br from-[#ffffff] to-[#EDF4F4]">
+      <div className="min-h-screen from-[#ffffff] to-[#EDF4F4] md:bg-gradient-to-br">
         <Header />
         <Hero />
         <Feature />

@@ -19,8 +19,8 @@ module.exports = {
         primary: '#ff8d3b',
       },
       boxShadow: {
-        shadow1: '0px 22px 35px 7px rgba(0, 0, 0, 0.06)'
-      }
+        shadow1: '0px 22px 35px 7px rgba(0, 0, 0, 0.06)',
+      },
     },
   },
   plugins: [],
